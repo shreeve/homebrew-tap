@@ -11,9 +11,15 @@ cask "pairsync" do
 
   app "PairSync.app"
 
+  # Remove quarantine attribute since app is not notarized
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-d", "com.apple.quarantine", "#{appdir}/PairSync.app"],
+                   sudo: false
+  end
+
   zap trash: [
     "~/Library/Preferences/com.pairsync.app.plist",
     "~/Library/Saved Application State/com.pairsync.app.savedState",
   ]
 end
-

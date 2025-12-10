@@ -26,4 +26,3 @@ brew install --cask pairsync
 - Light/Dark theme
 
 More info: https://github.com/shreeve/pairsync
-
