@@ -26,3 +26,15 @@ brew install --cask pairsync
 - Light/Dark theme
 
 More info: https://github.com/shreeve/pairsync
+
+### Transfer
+
+A native Mac app for browsing an SFTP server, riding the system's `ssh`. Signed with a Developer ID and notarized, and it updates itself.
+
+```bash
+brew install --cask shreeve/tap/transfer-sftp
+```
+
+The cask is `transfer-sftp` because Homebrew's own `transfer` is a different app. Requires macOS 27 on Apple silicon.
+
+More info: https://github.com/shreeve/transfer
