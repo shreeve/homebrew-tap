@@ -1,6 +1,6 @@
 # Homebrew Tap
 
-Custom Homebrew tap for shreeve's apps.
+Custom Homebrew tap for shreeve's apps and tools.
 
 ## Installation
 
@@ -8,7 +8,19 @@ Custom Homebrew tap for shreeve's apps.
 brew tap shreeve/tap
 ```
 
-## Available Casks
+## Formulae
+
+### git-enc
+
+Keep secrets in git, encrypted, and declare them in `.gitignore`. Runs as `git enc`.
+
+```bash
+brew install shreeve/tap/git-enc
+```
+
+More info: https://github.com/shreeve/git-enc
+
+## Casks
 
 ### PairSync
 
