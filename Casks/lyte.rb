@@ -9,9 +9,7 @@ cask "lyte" do
 
   livecheck do
     url "https://github.com/shreeve/lyte/releases/latest/download/appcast.xml"
-    strategy :sparkle do |item|
-      item.short_version
-    end
+    strategy :sparkle, &:short_version
   end
 
   auto_updates true
