@@ -1,6 +1,6 @@
 cask "transfer-sftp" do
-  version "0.1.5"
-  sha256 "2f009faaac3e86115b3767374bf823e918461ee257f4ce59015844fc69a7ef08"
+  version "0.1.6"
+  sha256 "c4030d6177f3bdcb164d3c19c73958ceff8881c4014099a78af01a7e0aa36097"
 
   url "https://github.com/shreeve/transfer/releases/download/v#{version}/Transfer-#{version}.zip"
   name "Transfer"
