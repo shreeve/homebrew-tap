@@ -1,6 +1,6 @@
 cask "lyte" do
-  version "0.7.0"
-  sha256 "622b3cb727333a4b40bccab80e0029a77625f8aece66da2ceca0fd2c0bb29053"
+  version "0.7.1"
+  sha256 "09ecf674191f5e331a6969339f0c28ceffc2d0babe2742ac9790f3fd2919fa77"
 
   url "https://github.com/shreeve/lyte/releases/download/v#{version}/Lyte-#{version}.zip"
   name "Lyte"
