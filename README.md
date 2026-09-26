@@ -50,3 +50,15 @@ brew install --cask shreeve/tap/transfer-sftp
 The cask is `transfer-sftp` because Homebrew's own `transfer` is a different app. Requires macOS 27 on Apple silicon.
 
 More info: https://github.com/shreeve/transfer
+
+### Lyte
+
+A low-latency remote desktop for a Linux host, speaking its own encrypted protocol. Signed with a Developer ID and notarized, and it updates itself.
+
+```bash
+brew install --cask shreeve/tap/lyte
+```
+
+Requires macOS 15 on Apple silicon.
+
+More info: https://github.com/shreeve/lyte
