@@ -62,3 +62,15 @@ brew install --cask shreeve/tap/lyte
 Requires macOS 15 on Apple silicon.
 
 More info: https://github.com/shreeve/lyte
+
+### Shotts
+
+Screenshots for the Mac, in one motion: press F10, select an area or a window, mark it up, and paste it. Signed with a Developer ID and notarized, and it updates itself.
+
+```bash
+brew install --cask shreeve/tap/shotts
+```
+
+Requires macOS 27 on Apple silicon.
+
+More info: https://github.com/shreeve/shotts
