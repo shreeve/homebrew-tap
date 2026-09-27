@@ -1,6 +1,6 @@
 cask "shotts" do
-  version "0.2.5"
-  sha256 "7ecebf9a5da0ea9cc8c72caa8c9b0edb42b3c8d832d3c4927f5c8512573bdeac"
+  version "0.2.6"
+  sha256 "aec6e6fb9033e45e7ab3412ebdb4fcc3eb6bb1acc397e3cccee68e4895f7df39"
 
   url "https://github.com/shreeve/shotts/releases/download/v#{version}/Shotts-#{version}.zip"
   name "Shotts"
