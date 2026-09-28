@@ -10,23 +10,23 @@ class GitEnc < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/shreeve/git-enc/releases/download/v0.1.1/git-enc-v0.1.1-osx-arm64.tar.gz"
-      sha256 "9fb8fa48986ad096726fe71cf29d041957874028b66d3f312350fab9319b6cc7"
+      url "https://github.com/shreeve/git-enc/releases/download/v0.2.0/git-enc-v0.2.0-osx-arm64.tar.gz"
+      sha256 "bdc4024a6fbefdb331e70f0994551d1e284476f21c45e221b8a924176bb9429a"
     end
     on_intel do
-      url "https://github.com/shreeve/git-enc/releases/download/v0.1.1/git-enc-v0.1.1-osx-amd64.tar.gz"
-      sha256 "73e0eb168d8e8e4f7f88363587cd07b784a4f2c89252f31c51101aa76911c634"
+      url "https://github.com/shreeve/git-enc/releases/download/v0.2.0/git-enc-v0.2.0-osx-amd64.tar.gz"
+      sha256 "8ddadd996685621bed88bdf29cdb631af0f4f22179e6c10076d9c80351d9bd8d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shreeve/git-enc/releases/download/v0.1.1/git-enc-v0.1.1-linux-arm64.tar.gz"
-      sha256 "0a9836a1ea845123235118c7e9969e074c9f1a8569e7fc467fdf9f795532497c"
+      url "https://github.com/shreeve/git-enc/releases/download/v0.2.0/git-enc-v0.2.0-linux-arm64.tar.gz"
+      sha256 "840b366f56f6f0bcb0013f64ad3d57800b1f77203d0b2a95efde723f25413591"
     end
     on_intel do
-      url "https://github.com/shreeve/git-enc/releases/download/v0.1.1/git-enc-v0.1.1-linux-amd64.tar.gz"
-      sha256 "1f76c3a95c67ec50b6652af26da006e13d5382b2a388d30c71b8c41181e2df0c"
+      url "https://github.com/shreeve/git-enc/releases/download/v0.2.0/git-enc-v0.2.0-linux-amd64.tar.gz"
+      sha256 "e52f3e982df5af2d372ac5d121782b1cf511a4f0c07982f0a1ddae6040848831"
     end
   end
 
