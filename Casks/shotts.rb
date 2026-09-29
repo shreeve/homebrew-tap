@@ -1,6 +1,6 @@
 cask "shotts" do
-  version "0.3.1"
-  sha256 "909085c4352235061d094dffc9b73d7573233dcd1b0bc734a203855d93b23a4b"
+  version "0.4.0"
+  sha256 "5453bc7c3c75183b329804bebe3efccc37495eeb001d7fcd999d826ed7354a82"
 
   url "https://github.com/shreeve/shotts/releases/download/v#{version}/Shotts-#{version}.zip"
   name "Shotts"
@@ -14,7 +14,7 @@ cask "shotts" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: :golden_gate
+  depends_on macos: ">= :sonoma"
 
   app "Shotts.app"
 
