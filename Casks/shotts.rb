@@ -1,10 +1,10 @@
 cask "shotts" do
-  version "0.4.0"
-  sha256 "5453bc7c3c75183b329804bebe3efccc37495eeb001d7fcd999d826ed7354a82"
+  version "0.5.0"
+  sha256 "550aba28bd6d68bca95e834c858aa8f59eb6fd170191c21f4cf2f76a10284be5"
 
   url "https://github.com/shreeve/shotts/releases/download/v#{version}/Shotts-#{version}.zip"
   name "Shotts"
-  desc "Screenshots with annotations: press a key, select, mark up, paste"
+  desc "Screenshots and screen recordings: press a key, select, mark up, paste"
   homepage "https://github.com/shreeve/shotts"
 
   livecheck do
