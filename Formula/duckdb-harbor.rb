@@ -12,19 +12,19 @@ class DuckdbHarbor < Formula
     depends_on arch: :arm64
 
     on_arm do
-      url "https://github.com/shreeve/duckdb-harbor/releases/download/v0.43.4/harbor-v0.43.4-osx-arm64.tar.gz"
-      sha256 "d6c6aec80dac44e94254ea74f1b36f1f9ea8610e9a664a180f491915b4d0c433"
+      url "https://github.com/shreeve/duckdb-harbor/releases/download/v0.43.5/harbor-v0.43.5-osx-arm64.tar.gz"
+      sha256 "402c01cfa4ed344feb831ae62c7f10ad964a2716c8db4beff02ff25186f46bff"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shreeve/duckdb-harbor/releases/download/v0.43.4/harbor-v0.43.4-linux-arm64.tar.gz"
-      sha256 "b220e05c474c98c68aa7e077ec6cd745a9d8c73fd1912a9adbcf65e358114709"
+      url "https://github.com/shreeve/duckdb-harbor/releases/download/v0.43.5/harbor-v0.43.5-linux-arm64.tar.gz"
+      sha256 "a5aa73db237efddb9356980dd781d8cfd9e5448b03e5482702b644de7b7697b4"
     end
     on_intel do
-      url "https://github.com/shreeve/duckdb-harbor/releases/download/v0.43.4/harbor-v0.43.4-linux-amd64.tar.gz"
-      sha256 "6d0aa470046ae817c32ef4da63d3b7f1cec1f947d62d29e680864e3a584b7427"
+      url "https://github.com/shreeve/duckdb-harbor/releases/download/v0.43.5/harbor-v0.43.5-linux-amd64.tar.gz"
+      sha256 "ffffbd71adee4f09c10236621ae8effa1c7a59f3885d207ca865ffef3df68937"
     end
   end
 
