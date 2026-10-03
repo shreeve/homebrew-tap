@@ -10,6 +10,16 @@ brew tap shreeve/tap
 
 ## Formulae
 
+### duckdb-harbor
+
+DuckDB Harbor serves one DuckDB file to many clients over plain HTTP, and is its own REPL. Installs the `harbor` command.
+
+```bash
+brew install shreeve/tap/duckdb-harbor
+```
+
+More info: https://github.com/shreeve/duckdb-harbor
+
 ### git-enc
 
 Keep secrets in git, encrypted, and declare them in `.gitignore`. Runs as `git enc`.
