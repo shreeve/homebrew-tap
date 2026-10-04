@@ -1,6 +1,6 @@
 cask "shotts" do
-  version "0.5.3"
-  sha256 "2d0e8819838ad356f21550366bb4a602ffb1e01fbda32be0f148ab1c50533e57"
+  version "0.6.0"
+  sha256 "9f38d5a866ef108ab178ae0c398178c74965fd7848a60447944f8de9b1bd610c"
 
   url "https://github.com/shreeve/shotts/releases/download/v#{version}/Shotts-#{version}.zip"
   name "Shotts"
@@ -17,6 +17,7 @@ cask "shotts" do
   depends_on macos: :sonoma
 
   app "Shotts.app"
+  binary "#{appdir}/Shotts.app/Contents/Helpers/shotts"
 
   zap trash: [
     "~/Library/Application Support/Shotts",
