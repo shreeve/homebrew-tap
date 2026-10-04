@@ -1,6 +1,6 @@
 cask "ducktable" do
-  version "0.22.8"
-  sha256 "66526186ec57e62ff9e9068ef18b046b3720bf3c3909fa3064fb4ca787a689ba"
+  version "0.22.9"
+  sha256 "86b8fab23830ee61b7695f01daef58186bc14662462500f7f250b18e46580e28"
 
   url "https://github.com/shreeve/duckdb-harbor/releases/download/ducktable-v#{version}/DuckTable-#{version}.zip"
   name "DuckTable"
