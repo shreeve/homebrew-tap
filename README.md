@@ -84,3 +84,15 @@ brew install --cask shreeve/tap/shotts
 Requires macOS 27 on Apple silicon.
 
 More info: https://github.com/shreeve/shotts
+
+### DuckTable
+
+A fast, minimal native Mac client for DuckDB Harbor servers: browse tables, edit rows, and run SQL. Signed with a Developer ID and notarized, and it updates itself.
+
+```bash
+brew install --cask shreeve/tap/ducktable
+```
+
+DuckTable speaks to Harbor, which installs with `brew install shreeve/tap/duckdb-harbor`. Requires macOS 12 on Apple silicon.
+
+More info: https://github.com/shreeve/duckdb-harbor/tree/main/ducktable
