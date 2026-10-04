@@ -29,6 +29,23 @@ class DuckdbHarbor < Formula
   end
 
   def install
+    # install.sh puts its own copy in ~/.local/bin, ahead of Homebrew's on
+    # most paths. Two copies answer to two upgrade commands and drift apart,
+    # so the one already there is the one to keep or to remove first. HOME is
+    # a scratch directory during a build; the password database has the real
+    # one.
+    script_copy = Pathname(Etc.getpwuid.dir)/".local/bin/harbor"
+    if script_copy.exist?
+      odie <<~EOS
+        harbor is already installed at #{script_copy}, by install.sh.
+        Keep that copy, and upgrade it with:
+          harbor update
+        To use Homebrew's instead, remove that copy first, then install again:
+          curl -fsSL https://raw.githubusercontent.com/shreeve/duckdb-harbor/main/install.sh | bash -s -- --uninstall
+        Your databases, config and state are untouched either way.
+      EOS
+    end
+
     # harbor loads libduckdb at runtime, from ../lib beside its own
     # executable first. The pair goes under libexec so the library never
     # lands in #{HOMEBREW_PREFIX}/lib, where the duckdb formula puts its own.
