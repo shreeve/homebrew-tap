@@ -10,6 +10,16 @@ brew tap shreeve/tap
 
 ## Formulae
 
+### cpuq
+
+A machine-wide jobserver: builds, tests, benchmarks and coding agents queue for a share of the machine's cores, so many sessions never overload one machine. macOS and Linux.
+
+```bash
+brew install shreeve/tap/cpuq
+```
+
+More info: https://github.com/shreeve/cpuq
+
 ### duckdb-harbor
 
 DuckDB Harbor serves one DuckDB file to many clients over plain HTTP, and is its own REPL. Installs the `harbor` command.
