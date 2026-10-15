@@ -10,23 +10,23 @@ class Cpuq < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/shreeve/cpuq/releases/download/v0.12.1/cpuq-v0.12.1-osx-arm64.tar.gz"
-      sha256 "f30f5326eaa97f943324fdaaf6676e273717da064466b91082dbced25c4cf9b5"
+      url "https://github.com/shreeve/cpuq/releases/download/v0.13.0/cpuq-v0.13.0-osx-arm64.tar.gz"
+      sha256 "520dcd16be2f84b2eb4ca124dba3340eb99e456e670ad7365e35173be61153ef"
     end
     on_intel do
-      url "https://github.com/shreeve/cpuq/releases/download/v0.12.1/cpuq-v0.12.1-osx-amd64.tar.gz"
-      sha256 "262301e4a52a162817ed4c3f739253bf3c98efd227cd88f99f20cdf2ad70d915"
+      url "https://github.com/shreeve/cpuq/releases/download/v0.13.0/cpuq-v0.13.0-osx-amd64.tar.gz"
+      sha256 "8440c1f504d6d7b36bff45555ebd142a413f22c2403ec74b83d3406d18622cf7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shreeve/cpuq/releases/download/v0.12.1/cpuq-v0.12.1-linux-arm64.tar.gz"
-      sha256 "154238faf5608168a0355c5fcba91190616be833ec80743ade556431e5adc123"
+      url "https://github.com/shreeve/cpuq/releases/download/v0.13.0/cpuq-v0.13.0-linux-arm64.tar.gz"
+      sha256 "440f4aca3888c1e3a9a2804559c72d676f9551eee7ece5cc2356d92a7f579d08"
     end
     on_intel do
-      url "https://github.com/shreeve/cpuq/releases/download/v0.12.1/cpuq-v0.12.1-linux-amd64.tar.gz"
-      sha256 "eb0b3fe216a5d7a2963519731da3f066b9a339083c0ebf6877a03c392bc77ca5"
+      url "https://github.com/shreeve/cpuq/releases/download/v0.13.0/cpuq-v0.13.0-linux-amd64.tar.gz"
+      sha256 "c512294d91facb6388d1f1dc9810b78029acc05f22d79516ae7a5de7555eb116"
     end
   end
 
