@@ -1,6 +1,6 @@
 cask "cpuq-app" do
-  version "0.19.4"
-  sha256 "ce35deeaadaa4d27c723514387f4669910a084a3f75c6f6f001a546072f38d88"
+  version "0.19.5"
+  sha256 "841932a1028978e763490e03bfcd668172310fe9b17375c3b21655cdd5de32c3"
 
   url "https://github.com/shreeve/cpuq/releases/download/app-v#{version}/Cpuq-#{version}.zip"
   name "Cpuq"
